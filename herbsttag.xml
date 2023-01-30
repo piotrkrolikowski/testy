@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:ns="http://www.isocat.org/ns/dcr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Herbsttag</title>
-            <author>Rainer Maria Rilke</author>
-         </titleStmt>
-         <publicationStmt>
-            <p>For training purposes.</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Unknown.</p>
-         </sourceDesc>
-      </fileDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Kronika</title>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Królik</publisher>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>nie wiem, co tu wpisać</bibl>
+      </sourceDesc>
+    </fileDesc>
   </teiHeader>
+
   <text>
-      <body>
-         <div>
-            <head>Herbsttag</head>
-            
-            <lg>
-               <l>Herr: Es ist Zeit. Der Sommer war sehr groß.</l>
-               <l>Leg deinen Schatten auf die Sonnenuhren,</l>
-               <l>und auf den Fluren laß die Winde los.</l>
-            </lg>           
-            
-            <lg>
-               <l>Befiehl den letzten Früchten voll zu sein;</l>
-               <l>gieb ihnen noch zwei südlichere Tage,</l>
-               <l>dränge sie zur Vollendung hin und jage</l>
-               <l>die letzte Süße in den schweren Wein.</l>
-            </lg>
-            
-            <lg>
-               <l>Wer jetzt kein Haus hat, baut sich keines mehr.</l>
-               <l>Wer jetzt allein ist, wird es lange bleiben,</l>
-               <l>wird wachen, lesen, lange Briefe schreiben</l>
-               <l>und wird in den Aleen hin und her</l>
-               <l>unruhig wandern, wenn die Blätter treiben</l>
-            </lg>
-            
-         </div>
-      </body>
+    <body>
+      <div>
+        <dateline><date n="05.12.1945">5.XII.1945</date> r.</dateline>
+
+        <p>W ochronce bardzo wesoło - dzieci radośnie oczekiwały św.
+        <rs>Mikołaja</rs>. O godz. 5-tej wieczorem przyszedł <pb n="10"/>św.
+        <rs>Mikołaj</rs> i przyniósł wszystkim dzieciom podarunki: bułki,
+        cukierki, jabłka i każde dostało coś z potrzebnej odzieży jak
+        płaszczyki, buty, koszulki, pończochy i t. d. Dzieci starsze odegrały
+        inscenizację: ,,Św. <rs>Mikołaj</rs> wśród dzieci'' oraz kilka
+        piosenek i deklamacji. Wieczór dzisiejszy był bardzo wesoły chociaż
+        niedaleko grały armaty na bliskim froncie. Dzieci były bardzo
+        zadowolone.</p>
+      </div>
+
+      <div>
+        <dateline><date n="12.12.1945">12.XII.1945</date> r.</dateline>
+
+        <p>Wieczorem robiłyśmy próbę na jasełka wtem usłyszaliśmy!!! straszny
+        huk - wyszliśmy na podwórze i zobaczyliśmy wielką łunę nad !!!<name
+        type="city">Tarnowem</name> i straszne bombardowanie w
+        !!!Bogumitowicach. Próbę zakończono śpiewaniem kolęd i poszliśmy
+        spać.</p>
+      </div>
+    </body>
   </text>
 </TEI>
